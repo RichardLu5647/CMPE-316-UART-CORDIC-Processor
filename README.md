@@ -60,14 +60,3 @@ Testbenches are included to verify functionality of individual modules and syste
 - `top_tb.sv` → Full system integration testing
 
 These testbenches validate correct data transmission, computation, and memory operations.
-
-## How to Run
-Simulation can be performed using tools such as:
-- Xilinx Vivado Simulator
-- ModelSim / QuestaSim
-
-Example (ModelSim-style flow):
-```bash
-vlog *.sv
-vsim top_tb
-run -all
