@@ -24,7 +24,7 @@ The system performs the following operations:
 ### UART Module
 - Handles serial communication (RX/TX)
 - Supports configurable baud rate via clock division
-- Implements both receiver and transmitter logic :contentReference[oaicite:0]{index=0}
+- Implements both receiver and transmitter logic
 
 ### CORDIC Module
 - Performs square root computation on input data
